@@ -3,10 +3,7 @@
 * Updated: Mar 21 2023 with Bootstrap v5.2.3
 * Author: MihawK
 */
-.btn-light-magenta {
-  background-color: #808fd2; /* Set the background color to light magenta */
-  color: #fff; /* Set the text color to white */
-}
+
 
 
 .portfolio-wrap {
@@ -912,6 +909,11 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.btn-light-magenta {
+  background-color: #808fd2; /* Set the background color to light magenta */
+  color: #fff; /* Set the text color to white */
+}
+
 .services .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
