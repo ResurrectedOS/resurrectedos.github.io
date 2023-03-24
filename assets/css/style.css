@@ -336,7 +336,7 @@ h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 14px;
-  color: #16507b;
+  color: #ff0000;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -352,7 +352,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #2487ce;
+  color: ##FF8A80;
 }
 
 .navbar .getstarted,
