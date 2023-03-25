@@ -235,32 +235,40 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: #00000;
 }
 
-#preloader:before {
-  content: "";
-  position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  border: 6px solid #2487ce;
-  border-top-color: #fff;
-  border-bottom-color: #fff;
+.dot1, .dot2, .dot3 {
+  position: absolute;
+  top: calc(50% - 16px);
+  left: calc(50% - 16px);
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  animation: animate-preloader 1s linear infinite;
+  background-color: #ff0000;
+  animation: animate-dot 1s ease-in-out infinite;
 }
 
-@keyframes animate-preloader {
+.dot2 {
+  animation-delay: 0.1s;
+}
+
+.dot3 {
+  animation-delay: 0.2s;
+}
+
+@keyframes animate-dot {
   0% {
-    transform: rotate(0deg);
+    transform: scale(0);
   }
-
+  50% {
+    transform: scale(1);
+  }
   100% {
-    transform: rotate(360deg);
+    transform: scale(0);
   }
 }
+
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
