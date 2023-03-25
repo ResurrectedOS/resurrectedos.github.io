@@ -53,17 +53,21 @@ body {
   border-radius: 10px;
   padding: 15px;
   margin-bottom: 30px;
-  max-width: 350px; /* make it smaller */
-  margin: 0 auto; /* center horizontally */
+  max-width: 350px;
+  width: 350px; /* add this */
+  height: 550px; /* add this */
+  margin: 0 auto;
   transition: all 0.3s ease-in-out;
 
   position: relative;
   overflow: hidden;
   display: flex;
-  justify-content: center; /* add this */
+  justify-content: center;
   align-items: center;
-  background-color: #808080; /* add the background color */
+  background-color: #808080;
+  flex-shrink: 0; /* add this */
 }
+
 
 
 /*--------------------------------------------------------------
@@ -274,7 +278,7 @@ h6 {
   transition: all 0.5s;
   background: #000000;
   z-index: 997;
-  padding: 15px 0;
+  padding: 10px 0;
   border-bottom: 1px solid #000000;
 }
 
