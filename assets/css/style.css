@@ -46,30 +46,6 @@ body {
   border: 1px solid var(--highlight-color);
 }
 
-
-
-.portfolio-wrap {
-  box-shadow: 0 4px 10px rgba(128, 128, 128, 0.2);
-  border-radius: 10px;
-  padding: 15px;
-  margin-bottom: 30px;
-  max-width: 350px;
-  width: 350px; /* add this */
-  height: 550px; /* add this */
-  margin: 0 auto;
-  transition: all 0.3s ease-in-out;
-
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #808080;
-  flex-shrink: 0; /* add this */
-}
-
-
-
 /*--------------------------------------------------------------
 # screenshots icon box
 --------------------------------------------------------------*/
@@ -136,20 +112,24 @@ body {
 --------------------------------------------------------------*/
 
 .portfolio-wrap {
-  box-shadow: 0 4px 10px rgba(255, 0, 0, 0.2);
-    border-radius: 10px;
+  box-shadow: 0 4px 13px rgba(33, 102, 67, 0.2);
+  border-radius: 10px;
   padding: 15px;
   margin-bottom: 30px;
-  max-width: 350px; /* make it smaller */
-  margin: 0 auto; /* center horizontally */
+  max-width: 350px;
+  width: 350px; /* add this */
+  height: 550px; /* add this */
+  margin: 0 auto;
   transition: all 0.3s ease-in-out;
-  
+
   position: relative;
   overflow: hidden;
   display: flex;
-  justify-content: center; /* add this */
+  justify-content: center;
   align-items: center;
-  background-color: #2a4060; /* add this */
+  background-color: #1C593A;
+  /*background-color: rgba(33, 102, 67, 0.47);*/ /* Change to RGBA with alpha 0.5 */
+  flex-shrink: 0; /* add this */
 }
 
 .portfolio-item {
@@ -157,11 +137,9 @@ body {
 }
 
 .portfolio-item:hover .portfolio-wrap {
-  box-shadow: 0 4px 15px rgba(255, 0, 0, 0.4);
+  box-shadow: 0 4px 15px rgba(33, 102, 67, 0.7);
   transform: translateY(-5px);
 }
-
-
 
 
 /*--------------------------------------------------------------
@@ -173,7 +151,7 @@ body {
 }
 
 a {
-  color: #ff0000;
+  color: #1BDF4E;
   text-decoration: none;
 }
 
@@ -245,7 +223,7 @@ h6 {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background-color: #ff0000;
+  background-color: #1BDF4E;
   animation: animate-dot 1s ease-in-out infinite;
 }
 
@@ -288,12 +266,15 @@ h6 {
   z-index: 997;
   padding: 10px 0;
   border-bottom: 1px solid #000000;
-}
 
-#header.header-scrolled {
-  border-color: #ff0000;
+  border-color: #1BDF4E;
   box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
 }
+
+/*#header.header-scrolled {
+  border-color: #1BDF4E;
+  box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
+}*/
 
 #header .logo {
   font-size: 28px;
@@ -348,7 +329,7 @@ h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 14px;
-  color: #ff0000;
+  color: #1BDF4E;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -450,7 +431,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #ff0000;
+  color: #1BDF4E;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -513,7 +494,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #ff0000;
+  color: #1BDF4E;
 }
 
 .navbar-mobile .getstarted,
@@ -548,7 +529,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #ff0000;
+  color: #1BDF4E;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -593,7 +574,7 @@ h6 {
 }
 
 #hero h2 {
-  color: #ff0000;
+  color: #1BDF4E;
   margin: 10px 0 0 0;
   font-size: 22px;
 }
@@ -656,7 +637,7 @@ h6 {
   transition: all 0.3s ease-in-out;
   font-size: 36px;
   line-height: 1;
-  color: #ff0000;
+  color: #1BDF4E;
 }
 
 #hero .icon-box:hover {
@@ -754,7 +735,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #ff0000;
+  color: #1BDF4E;
   line-height: 1;
 }
 
@@ -991,7 +972,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #ff0000;
+  color: #1BDF4E;
   font-size: 26px;
 }
 
@@ -1041,18 +1022,22 @@ section {
   height: 12px;
   background-color: #000000;
   opacity: 1;
-  border: 1px solid #ff0000;
+  border: 1px solid #1BDF4E;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ff0000;
+  background-color: #1BDF4E;
 }
 
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 .btn-light-magenta {
-  background-color: #808fd2; /* Set the background color to light magenta */
+  background-color: #0F8757; /* Set the background color to light magenta */
+  color: #fff; /* Set the text color to white */
+}
+.btn-light-magenta:hover {
+  background-color: #15B273; /* Set the background color to light magenta */
   color: #fff; /* Set the text color to white */
 }
 
@@ -1248,7 +1233,7 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #ff0000;
+  color: #1BDF4E;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
@@ -1854,7 +1839,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #ff0000;
+  color: #1BDF4E;
   font-size: 18px;
   line-height: 1;
 }
@@ -1870,7 +1855,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #ff0000;
+  color: #1BDF4E;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1878,7 +1863,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #ff0000;
+  color: #1BDF4E;
 }
 
 #footer .footer-newsletter {
@@ -1952,6 +1937,6 @@ section {
 
 #footer .social-links a:hover {
   background: #000000;
-  color: #ff0000;
+  color: #1BDF4E;
   text-decoration: none;
 }
