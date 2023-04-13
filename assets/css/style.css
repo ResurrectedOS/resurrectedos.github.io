@@ -56,7 +56,8 @@ body {
     width: 255px;
     height: 25px;
     display: block;
-    margin: 0 auto;
+    position: relative; /* Set the button to be positioned relative to its container */
+    right: 10px; /* Move the button 5px to the left */
     text-align: center; /* Align text center */
     line-height: 255px; /* Vertically center text */
     display: flex; /* Make the button a flex container */
