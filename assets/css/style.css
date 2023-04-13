@@ -50,26 +50,16 @@ body {
 /*--------------------------------------------------------------
 # download page buttons 
 --------------------------------------------------------------*/
-.btn-light-download {
-    background-color: #0F8757;
-    color: #fff;
-    width: 255px;
-    height: 25px;
-    display: block;
-    position: relative; /* Set the button to be positioned relative to its container */
-    right: 10px; /* Move the button 5px to the left */
-    text-align: center; /* Align text center */
-    line-height: 255px; /* Vertically center text */
-    display: flex; /* Make the button a flex container */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    border-radius: 12.5px; /* Set the border radius to half the height */
-}
-
-.btn-light-download:hover {
-    background-color: #15B273;
-    color: #fff;
-}
+.button-like {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 0.5em;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1rem;
+  }
 
 
 /*--------------------------------------------------------------
