@@ -53,12 +53,12 @@ body {
 .btn-light-download {
     background-color: #0F8757;
     color: #fff;
-    width: 300px;
+    width: 255px;
     height: 25px;
     display: block;
     margin: 0 auto;
     text-align: center; /* Align text center */
-    line-height: 300px; /* Vertically center text */
+    line-height: 255px; /* Vertically center text */
     display: flex; /* Make the button a flex container */
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */
