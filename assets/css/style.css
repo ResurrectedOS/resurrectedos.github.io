@@ -1,7 +1,7 @@
 /**
 * Name: RUi 
-* Updated: Mar 21 2023 with Bootstrap v5.2.3
-* Author: MihawK
+* Updated: April 14 2023
+* Author: BurhanVerse 
 */
 
 :root {
@@ -45,6 +45,117 @@ body {
   color: var(--text-color);
   border: 1px solid var(--highlight-color);
 }
+
+
+/*--------------------------------------------------------------
+# download page buttons 
+--------------------------------------------------------------*/
+.btn-light-download {
+    background-color: #0F8757;
+    color: #fff;
+    width: 300px;
+    height: 25px;
+    display: block;
+    margin: 0 auto;
+    text-align: center; /* Align text center */
+    line-height: 300px; /* Vertically center text */
+    display: flex; /* Make the button a flex container */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    border-radius: 12.5px; /* Set the border radius to half the height */
+}
+
+.btn-light-download:hover {
+    background-color: #15B273;
+    color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# Fuck section 
+--------------------------------------------------------------*/
+
+.fuck .fuck-list {
+  padding: 0 100px;
+}
+
+.fuck .fuck-list ul {
+  padding: 0;
+  list-style: none;
+}
+
+.fuck .fuck-list li+li {
+  margin-top: 15px;
+}
+
+.fuck .fuck-list li {
+  padding: 20px;
+  border: 1px solid #30303080;
+  border-radius: 4px;
+  position: relative;
+  box-shadow: none;
+}
+
+.fuck .fuck-list a {
+  display: block;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  padding: 0 30px;
+  outline: none;
+  cursor: pointer;
+}
+
+.fuck .fuck-list .icon-help {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  left: 20px;
+  color: green;
+}
+
+.fuck .fuck-list .icon-show,
+.fuck .fuck-list .icon-close {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.fuck .fuck-list p {
+  margin-bottom: 0;
+  padding: 10px 0 0 0;
+}
+
+.fuck .fuck-list .icon-show {
+  display: none;
+}
+
+.fuck .fuck-list a.collapsed {
+  color: #fff;
+}
+
+.fuck .fuck-list a.collapsed:hover {
+  color: #fff;
+}
+
+.fuck .fuck-list a.collapsed .icon-show {
+  display: inline-block;
+}
+
+.fuck .fuck-list a.collapsed .icon-close {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .fuck .fuck-list {
+    padding: 0;
+  }
+}
+
+
 
 /*--------------------------------------------------------------
 # screenshots icon box
