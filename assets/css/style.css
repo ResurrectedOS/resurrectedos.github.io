@@ -258,7 +258,7 @@ a {
 }
 
 a:hover {
-  color: #469fdf;
+  color: #18C645;
   text-decoration: none;
 }
 
@@ -268,7 +268,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Share Tech', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 /*--------------------------------------------------------------
