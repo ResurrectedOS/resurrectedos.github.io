@@ -81,7 +81,7 @@ body {
 
 .fuck .fuck-list li {
   padding: 20px;
-  border: 1px solid #30303080;
+  border: 1px solid #555555;
   border-radius: 15px;
   position: relative;
   box-shadow: none;
@@ -90,7 +90,7 @@ body {
 .fuck .fuck-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
