@@ -1,6 +1,6 @@
 /**
 * Name: RUi 
-* Updated: April 21 2023
+* Updated: April 22 2023
 * Author: BurhanVerse 
 */
 
@@ -44,6 +44,102 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
   border: 1px solid var(--highlight-color);
+}
+
+/*--------------------------------------------------------------
+
+# download page boxbit
+
+--------------------------------------------------------------*/
+
+.my-box {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  border: 1px solid #000000;
+
+  border-radius: 15px;
+
+  height: 50px;
+
+  margin: 5px;
+
+}
+
+.my-box boxbit {
+
+  display: inline-block;
+
+  padding: 0.2em 0.5em;
+
+  background-color: #F45050;
+
+  color: white;
+
+  border-radius: 0.5em;
+
+  text-align: center;
+
+  line-height: 0.7em;
+
+  margin-left: -1px;
+
+  height: 19px;
+
+}
+
+.my-box boxbit.dev {
+
+  background-color: rgba(135, 206, 235, 0.5);
+
+  width: 100px;
+
+  margin-right: 10px;
+
+  
+
+}
+
+.my-box boxbit.lastdate {
+
+  background-color: #F45050;
+
+  width: 100px;
+
+}
+
+.my-box boxbit.activestat {
+
+  background-color: rgba(0, 128, 0, 0.5);
+
+  margin-left: 10px;
+
+  width: 100px;
+
+}
+
+.my-box boxbit.inactivestat {
+
+  background-color: rgba(244, 80, 80, 0.7)
+
+;
+
+  margin-left: 10px;
+
+  width: 100px;
+
+}
+
+.my-box boxbit:not(:last-child) {
+
+  margin-right: 25px;
+
+  margin-left: 25px;
+
 }
 
 
