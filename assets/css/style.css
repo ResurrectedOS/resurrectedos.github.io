@@ -220,7 +220,7 @@ body {
   display: none;
 }
 
-.fuck .fuck-list a.collapsed {
+.fuck .fuck-list .collapsed {
   color: #fff;
 }
 
@@ -228,11 +228,11 @@ body {
   color: #fff;
 }
 
-.fuck .fuck-list a.collapsed .icon-show {
+.fuck .fuck-list .collapsed .icon-show {
   display: inline-block;
 }
 
-.fuck .fuck-list a.collapsed .icon-close {
+.fuck .fuck-list .collapsed .icon-close {
   display: none;
 }
 

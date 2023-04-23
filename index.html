@@ -159,29 +159,6 @@
             </div>
           </div>
 
-          <script>
-            const botToken = '6276949802:AAEuoKA2dcv4qC0dpLDIp_aztrGzb7kWPg8';
-            const channelName = 'memeremoded';
-
-            const apiUrl = `https://api.telegram.org/bot${botToken}/getChatMembersCount?chat_id=@${channelName}`;
-
-            fetch(apiUrl)
-              .then(response => response.json())
-              .then(data => {
-                const subscribersCount = data.result;
-                new PureCounter({
-                // Setting that can't' be overriden on pre-element
-                selector: ".userss", // HTML query selector for spesific element
-
-                // Settings that can be overridden on per-element basis, by `data-purecounter-*` attributes:
-                start: 0, // Starting number [uint]
-                end: subscribersCount, // End number [uint]
-                duration: 2, // The time in seconds for the animation to complete [seconds]
-                });
-              })
-              .catch(error => console.error(error));
-          </script>
-
           <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
             <div class="count-box">
               <span data-purecounter-start="0" data-purecounter-end="1100" data-purecounter-duration="2" class="purecounter">+</span>
@@ -763,6 +740,31 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+
+  <!-- Counter Script -->
+
+  <script> // users
+    const botToken = '6276949802:AAEuoKA2dcv4qC0dpLDIp_aztrGzb7kWPg8';
+    const channelName = 'memeremoded';
+
+    const apiUrl = `https://api.telegram.org/bot${botToken}/getChatMembersCount?chat_id=@${channelName}`;
+
+    fetch(apiUrl)
+      .then(response => response.json())
+      .then(data => {
+        const subscribersCount = data.result;
+        new PureCounter({
+        // Setting that can't' be overriden on pre-element
+        selector: ".userss", // HTML query selector for spesific element
+
+        // Settings that can be overridden on per-element basis, by `data-purecounter-*` attributes:
+        start: 0, // Starting number [uint]
+        end: subscribersCount, // End number [uint]
+        duration: 2, // The time in seconds for the animation to complete [seconds]
+        });
+      })
+      .catch(error => console.error(error));
+  </script>
 </body>
 
 </html>
