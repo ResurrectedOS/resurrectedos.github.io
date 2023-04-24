@@ -10,12 +10,23 @@ fetch(apiUrl)
     const subscribersCount = data.result;
     new PureCounter({
     // Setting that can't' be overriden on pre-element
-    selector: ".userss", // HTML query selector for spesific element
+    selector: ".wenusersir", // HTML query selector for spesific element
 
     // Settings that can be overridden on per-element basis, by `data-purecounter-*` attributes:
     start: 0, // Starting number [uint]
     end: subscribersCount, // End number [uint]
     duration: 2, // The time in seconds for the animation to complete [seconds]
     });
-  })
-  .catch(error => console.error(error));
+  }) .catch(error => console.error(error));
+
+// downloads
+let dl_count = 500 + Number(localStorage.getItem("wendownloadsir"));
+new PureCounter({
+// Setting that can't' be overriden on pre-element
+selector: ".wendownloadsir", // HTML query selector for spesific element
+
+// Settings that can be overridden on per-element basis, by `data-purecounter-*` attributes:
+start: 0, // Starting number [uint]
+end: dl_count, // End number [uint]
+duration: 2, // The time in seconds for the animation to complete [seconds]
+});
