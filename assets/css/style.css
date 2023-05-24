@@ -442,7 +442,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #00000;
+  background: #00000000;
 }
 
 .dot1, .dot2, .dot3 {
@@ -574,7 +574,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: ##FF8A80;
+  color: #FF8A80;
 }
 
 .navbar .getstarted,
@@ -834,7 +834,7 @@ h6 {
   padding: 50px 30px;
   position: relative;
   overflow: hidden;
-  background: #;
+  background: #00000000;
   box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -874,7 +874,7 @@ h6 {
 }
 
 #hero .icon-box:hover .title a {
-  color: #;
+  color: #00000000;
 }
 
 @media (min-width: 1024px) {
@@ -1233,7 +1233,7 @@ section {
   content: "";
   width: 0;
   height: 0;
-  border-top: 20px solid #99;
+  border-top: 20px solid #9900;
   border-right: 20px solid transparent;
   border-left: 20px solid transparent;
   position: absolute;
@@ -1474,9 +1474,6 @@ section {
 
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
-}
-
-
 }
 
 /*--------------------------------------------------------------
