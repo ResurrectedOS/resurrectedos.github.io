@@ -5,9 +5,12 @@
 */
 
 :root {
-  --bg-color: #000000; /* dark background color */
-  --text-color: #fff; /* light text color */
-  --highlight-color: #5af78e; /* highlight color */
+  --bg-color: #000000;
+  /* dark background color */
+  --text-color: #fff;
+  /* light text color */
+  --highlight-color: #5af78e;
+  /* highlight color */
 
   /* define other variables for colors used in your code */
 }
@@ -27,9 +30,12 @@ body {
 
 /* toggle between light and dark mode */
 .dark-mode {
-  --bg-color: #abb2bf; /* light background color */
-  --text-color: #282c34; /* dark text color */
-  --highlight-color: #5af78e; /* highlight color */
+  --bg-color: #abb2bf;
+  /* light background color */
+  --text-color: #282c34;
+  /* dark text color */
+  --highlight-color: #5af78e;
+  /* highlight color */
 
   /* update other variables for colors used in your code */
 }
@@ -100,7 +106,7 @@ body {
 
   margin-right: 10px;
 
-  
+
 
 }
 
@@ -124,8 +130,7 @@ body {
 
 .my-box boxbit.romdevstat {
 
- background-color: rgba(255, 191, 0, 0.7)
-;
+  background-color: rgba(255, 191, 0, 0.7);
 
   margin-left: 10px;
 
@@ -136,9 +141,7 @@ body {
 
 .my-box boxbit.inactivestat {
 
-  background-color: rgba(244, 80, 80, 0.7)
-
-;
+  background-color: rgba(244, 80, 80, 0.7);
 
   margin-left: 10px;
 
@@ -158,19 +161,20 @@ body {
 # wenprogress neon sir
 --------------------------------------------------------------*/
 .wenprogress {
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 9999;
-	width: 100%;
-	height: 3px;
-	background-color: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 3px;
+  background-color: #000000;
 }
+
 .neon {
-	display: block;
-	width: 0;
-	height: inherit;
-	background-image: linear-gradient(90deg, #00ffaa, #ff5e31, #032ad9, #0cb000);
+  display: block;
+  width: 0;
+  height: inherit;
+  background-image: linear-gradient(90deg, #00ffaa, #ff5e31, #032ad9, #0cb000);
 }
 
 
@@ -186,7 +190,7 @@ body {
   cursor: pointer;
   text-decoration: none;
   font-size: 1rem;
-  }
+}
 
 
 /*--------------------------------------------------------------
@@ -346,8 +350,10 @@ body {
   padding: 15px;
   margin-bottom: 30px;
   max-width: 350px;
-  width: 350px; /* add this */
-  height: 550px; /* add this */
+  width: 350px;
+  /* add this */
+  height: 550px;
+  /* add this */
   margin: 0 auto;
   transition: all 0.3s ease-in-out;
 
@@ -357,12 +363,15 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #1C593A;
-  /*background-color: rgba(33, 102, 67, 0.47);*/ /* Change to RGBA with alpha 0.5 */
-  flex-shrink: 0; /* add this */
+  /*background-color: rgba(33, 102, 67, 0.47);*/
+  /* Change to RGBA with alpha 0.5 */
+  flex-shrink: 0;
+  /* add this */
 }
 
 .portfolio-item {
-  margin-bottom: 20px; /* add some margin to separate the boxes */
+  margin-bottom: 20px;
+  /* add some margin to separate the boxes */
 }
 
 .portfolio-item:hover .portfolio-wrap {
@@ -445,7 +454,9 @@ h6 {
   background: #00000000;
 }
 
-.dot1, .dot2, .dot3 {
+.dot1,
+.dot2,
+.dot3 {
   position: absolute;
   top: calc(50% - 16px);
   left: calc(50% - 16px);
@@ -468,9 +479,11 @@ h6 {
   0% {
     transform: scale(0);
   }
+
   50% {
     transform: scale(1);
   }
+
   100% {
     transform: scale(0);
   }
@@ -689,7 +702,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba( 0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.8);
   transition: 0.3s;
   z-index: 999;
 }
@@ -779,7 +792,8 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.9); /* pitch black in rgba format */
+  background: rgba(0, 0, 0, 0.9);
+  /* pitch black in rgba format */
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1258,12 +1272,17 @@ section {
 # Services
 --------------------------------------------------------------*/
 .btn-light-magenta {
-  background-color: #0F8757; /* Set the background color to light magenta */
-  color: #fff; /* Set the text color to white */
+  background-color: #0F8757;
+  /* Set the background color to light magenta */
+  color: #fff;
+  /* Set the text color to white */
 }
+
 .btn-light-magenta:hover {
-  background-color: #15B273; /* Set the background color to light magenta */
-  color: #fff; /* Set the text color to white */
+  background-color: #15B273;
+  /* Set the background color to light magenta */
+  color: #fff;
+  /* Set the text color to white */
 }
 
 .services .icon-box {
