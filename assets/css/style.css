@@ -1,6 +1,6 @@
 /**
 * Name: RUi web
-* Updated: May 25 2023
+* Updated: May 26 2023
 * Author: BurhanVerse 
 */
 
@@ -52,11 +52,9 @@ body {
   border: 1px solid var(--highlight-color);
 }
 
-/*--------------------------------------------------------------
-
+/*--------------------------------------------------------
 # download page boxbit
-
---------------------------------------------------------------*/
+--------------------------------------------------------*/
 
 .my-box {
 
@@ -156,10 +154,9 @@ body {
   margin-left: 25px;
 
 }
-
-/*--------------------------------------------------------------
+/*--------------------------------------------------------
 # wenprogress neon sir
---------------------------------------------------------------*/
+---------------------------------------------------------*/
 .wenprogress {
   position: fixed;
   top: 0;
@@ -176,11 +173,9 @@ body {
   height: inherit;
   background-image: linear-gradient(90deg, #00ffaa, #ff5e31, #032ad9, #0cb000);
 }
-
-
-/*--------------------------------------------------------------
+/*---------------------------------------------------------
 # download page buttons 
---------------------------------------------------------------*/
+---------------------------------------------------------*/
 .button-like {
   display: inline-block;
   padding: 0.5em 1em;
@@ -191,11 +186,9 @@ body {
   text-decoration: none;
   font-size: 1rem;
 }
-
-
-/*--------------------------------------------------------------
+/*----------------------------------------------------------
 # Fuck section 
---------------------------------------------------------------*/
+----------------------------------------------------------*/
 
 .fuck .fuck-list {
   padding: 0 100px;
@@ -279,70 +272,10 @@ body {
 
 
 
-/*--------------------------------------------------------------
-# screenshots icon box
---------------------------------------------------------------*/
-#screenshots {
-  text-align: center;
-}
 
-#screenshots .icon-boxes {
-  margin-top: 50px;
-}
-
-#screenshots .icon-box {
-  padding: 30px 15px;
-  position: relative;
-  overflow: hidden;
-  background: #1C593A;
-  box-shadow: 0 4px 13px rgba(33, 102, 67, 0.2);
-  transition: all 0.3s ease-in-out;
-  border-radius: 30px;
-  z-index: 1;
-  display: inline-block;
-  text-align: left;
-}
-
-#screenshots .icon-box .title {
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
-}
-
-#screenshots .icon-box .title a {
-  color: #124265;
-  transition: 0.3s;
-}
-
-#screenshots .icon-box .description {
-  font-size: 15px;
-  line-height: 28px;
-  margin-bottom: 0;
-}
-
-#screenshots .icon-box .icon {
-  margin-bottom: 20px;
-  padding-top: 10px;
-  display: inline-block;
-  transition: all 0.3s ease-in-out;
-  font-size: 36px;
-  line-height: 1;
-  color: #2487ce;
-}
-
-#screenshots .icon-box:hover {
-  transform: scale(1.08);
-}
-
-#screenshots .icon-box:hover .title a {
-  color: #2487ce;
-}
-
-
-
-/*--------------------------------------------------------------
+/*----------------------------------------------------------
 # portfolio box
---------------------------------------------------------------*/
+----------------------------------------------------------*/
 
 .portfolio-wrap {
   box-shadow: 0 4px 13px rgba(33, 102, 67, 0.2);
@@ -380,9 +313,9 @@ body {
 }
 
 
-/*--------------------------------------------------------------
+/*-----------------------------------------------------------
 # General
---------------------------------------------------------------*/
+-----------------------------------------------------------*/
 body {
   font-family: 'Nunito', sans-serif;
   color: #fff;
@@ -407,9 +340,9 @@ h6 {
   font-family: 'Nunito', sans-serif;
 }
 
-/*--------------------------------------------------------------
+/*-----------------------------------------------------------
 # Back to top button
---------------------------------------------------------------*/
+-----------------------------------------------------------*/
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -440,9 +373,9 @@ h6 {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
+/*-----------------------------------------------------------
 # Preloader
---------------------------------------------------------------*/
+-----------------------------------------------------------*/
 #preloader {
   position: fixed;
   top: 0;
@@ -490,18 +423,18 @@ h6 {
 }
 
 
-/*--------------------------------------------------------------
+/*----------------------------------------------------------
 # Disable aos animation delay on mobile devices
---------------------------------------------------------------*/
+----------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
 }
 
-/*--------------------------------------------------------------
+/*-----------------------------------------------------------
 # Header
---------------------------------------------------------------*/
+-----------------------------------------------------------*/
 #header {
   transition: all 0.5s;
   background: #000000;
@@ -542,10 +475,10 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
+/*-----------------------------------------------------------
 # Navigation Menu
---------------------------------------------------------------*/
-/**
+-----------------------------------------------------------*/
+/*
 * Desktop Navigation 
 */
 .navbar {
@@ -778,9 +711,9 @@ h6 {
   display: block;
 }
 
-/*--------------------------------------------------------------
+/*-----------------------------------------------------------
 # Hero Section
---------------------------------------------------------------*/
+----------------------------------------------------------*/
 #hero {
   width: 100%;
   height: 100vh;
@@ -915,9 +848,9 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
+/*----------------------------------------------------------
 # Sections General
---------------------------------------------------------------*/
+----------------------------------------------------------*/
 section {
   padding: 80px 0;
   overflow: hidden;
@@ -947,9 +880,9 @@ section {
   color: #fff;
 }
 
-/*--------------------------------------------------------------
+/*-----------------------------------------------------------
 # About
---------------------------------------------------------------*/
+-----------------------------------------------------------*/
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
@@ -982,31 +915,9 @@ section {
   margin-bottom: 0;
 }
 
-.about .content .btn-learn-more {
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 32px;
-  border-radius: 5px;
-  transition: 0.3s;
-  line-height: 1;
-  color: #fff;
-  animation-delay: 0.8s;
-  margin-top: 6px;
-  border: 2px solid #2487ce;
-}
-
-.about .content .btn-learn-more:hover {
-  background: #000000;
-  color: #fff;
-  text-decoration: none;
-}
-
-/*--------------------------------------------------------------
+/*-----------------------------------------------------------
 # Counts
---------------------------------------------------------------*/
+-----------------------------------------------------------*/
 .counts {
   padding: 60px 0;
 }
@@ -1034,124 +945,10 @@ section {
   color: #fff;
 }
 
-/*--------------------------------------------------------------
-# About Video
---------------------------------------------------------------*/
-.about-video .content {
-  font-size: 15px;
-}
 
-.about-video .content h3 {
-  font-weight: 700;
-  font-size: 24px;
-  color: #124265;
-}
-
-.about-video .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.about-video .content ul li {
-  padding-bottom: 10px;
-  padding-left: 28px;
-  position: relative;
-}
-
-.about-video .content ul i {
-  font-size: 24px;
-  color: #2487ce;
-  position: absolute;
-  left: 0;
-  top: -2px;
-}
-
-.about-video .content p:last-child {
-  margin-bottom: 0;
-}
-
-.about-video .play-btn {
-  width: 94px;
-  height: 94px;
-  background: radial-gradient(#2487ce 50%, rgba(36, 135, 206, 0.4) 52%);
-  border-radius: 50%;
-  display: block;
-  position: absolute;
-  left: calc(50% - 47px);
-  top: calc(50% - 47px);
-  overflow: hidden;
-}
-
-.about-video .play-btn::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translateX(-40%) translateY(-50%);
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 15px solid #fff;
-  z-index: 100;
-  transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
-
-.about-video .play-btn::before {
-  content: "";
-  position: absolute;
-  width: 120px;
-  height: 120px;
-  animation-delay: 0s;
-  animation: pulsate-btn 2s;
-  animation-direction: forwards;
-  animation-iteration-count: infinite;
-  animation-timing-function: steps;
-  opacity: 1;
-  border-radius: 50%;
-  border: 5px solid rgba(36, 135, 206, 0.7);
-  top: -15%;
-  left: -15%;
-  background: rgba(198, 16, 0, 0);
-}
-
-.about-video .play-btn:hover::after {
-  border-left: 15px solid #2487ce;
-  transform: scale(20);
-}
-
-.about-video .play-btn:hover::before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translateX(-40%) translateY(-50%);
-  width: 0;
-  height: 0;
-  border: none;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 15px solid #fff;
-  z-index: 200;
-  animation: none;
-  border-radius: 0;
-}
-
-@keyframes pulsate-btn {
-  0% {
-    transform: scale(0.6, 0.6);
-    opacity: 1;
-  }
-
-  100% {
-    transform: scale(1, 1);
-    opacity: 0;
-  }
-}
-
-/*--------------------------------------------------------------
+/*-----------------------------------------------------------
 # Clients
---------------------------------------------------------------*/
+-----------------------------------------------------------*/
 .clients {
   padding: 15px 0;
   text-align: center;
@@ -1176,9 +973,9 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
+/*-----------------------------------------------------------
 # Testimonials
---------------------------------------------------------------*/
+-----------------------------------------------------------*/
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
@@ -1268,9 +1065,9 @@ section {
   background-color: #18C645;
 }
 
-/*--------------------------------------------------------------
+/*----------------------------------------------------------
 # button theming
---------------------------------------------------------------*/
+----------------------------------------------------------*/
 .btn-light-magenta {
   background-color: #0F8757;
   /* Set the background color to light magenta */
