@@ -3,14 +3,15 @@
 * Updated: May 26 2023
 * Author: BurhanVerse 
 */
+@import url("../css/footer.css");
 @import url("../css/rain.css");
 
 :root {
-  --bg-color: #000000;
+  --bg-color: #1c1c1c;
   /* dark background color */
-  --text-color: #fff;
+  --text-color: #ccc;
   /* light text color */
-  --highlight-color: #5af78e;
+  --highlight-color: #F4C4A9;
   /* highlight color */
 
   /* define other variables for colors used in your code */
@@ -35,7 +36,7 @@ body {
   /* light background color */
   --text-color: #282c34;
   /* dark text color */
-  --highlight-color: #5af78e;
+  --highlight-color: #F4C4A9;
   /* highlight color */
 
   /* update other variables for colors used in your code */
@@ -57,103 +58,67 @@ body {
 # download page boxbit
 --------------------------------------------------------*/
 
-.my-box {
-
-  display: flex;
-
-  justify-content: space-between;
-
-  align-items: center;
-
-  border: 1px solid #000000;
-
+.satanic {
+  border: 1px solid #F4C4A9;
   border-radius: 15px;
+  padding: 10px;
+}
 
+.my-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #00000000;
+  border-radius: 15px;
   height: 50px;
-
   margin: 5px;
-
 }
 
 .my-box boxbit {
-
   display: inline-block;
-
   padding: 0.2em 0.5em;
-
   background-color: #F45050;
-
-  color: white;
-
+  color: #fff;
   border-radius: 0.5em;
-
   text-align: center;
-
   line-height: 0.7em;
-
   margin-left: -1px;
-
   height: 19px;
-
 }
 
 .my-box boxbit.dev {
-
-  background-color: rgba(135, 206, 235, 0.5);
-
+  background-color: rgb(105, 0, 191);
   width: 100px;
-
   margin-right: 10px;
-
-
-
 }
 
 .my-box boxbit.lastdate {
-
-  background-color: rgba(0, 0, 255, 0.5);
-
+  background-color: rgb(0, 140, 168);
   width: 100px;
-
 }
 
 .my-box boxbit.activestat {
-
-  background-color: rgba(0, 128, 0, 0.5);
-
+  background-color: rgba(0, 154, 0, 0.983);
   margin-left: 10px;
-
   width: 100px;
-
 }
 
 .my-box boxbit.romdevstat {
-
-  background-color: rgba(255, 191, 0, 0.7);
-
+  background-color: rgb(187, 140, 0);
   margin-left: 10px;
-
   width: 100px;
-
 }
 
 
 .my-box boxbit.inactivestat {
-
-  background-color: rgba(244, 80, 80, 0.7);
-
+  background-color: rgb(185, 0, 0);
   margin-left: 10px;
-
   width: 100px;
-
 }
 
 .my-box boxbit:not(:last-child) {
-
   margin-right: 25px;
-
   margin-left: 25px;
-
 }
 
 /*--------------------------------------------------------
@@ -166,14 +131,13 @@ body {
   z-index: 9999;
   width: 100%;
   height: 3px;
-  background-color: #000000;
 }
 
 .neon {
   display: block;
   width: 0;
   height: inherit;
-  background-image: linear-gradient(90deg, #00ffaa, #ff5e31, #032ad9, #0cb000);
+  background-color: #F4C4A9 /*linear-gradient(90deg, #00ffaa, #ff5e31, #032ad9, #0cb000);*/
 }
 
 /*---------------------------------------------------------
@@ -282,7 +246,6 @@ body {
 ----------------------------------------------------------*/
 
 .portfolio-wrap {
-  box-shadow: 0 4px 13px rgba(33, 102, 67, 0.2);
   border-radius: 10px;
   padding: 15px;
   margin-bottom: 30px;
@@ -299,9 +262,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1C593A;
-  /*background-color: rgba(33, 102, 67, 0.47);*/
-  /* Change to RGBA with alpha 0.5 */
+  background-color: #2a2a2abc;
   flex-shrink: 0;
   /* add this */
 }
@@ -312,8 +273,9 @@ body {
 }
 
 .portfolio-item:hover .portfolio-wrap {
-  box-shadow: 0 4px 15px rgba(33, 102, 67, 0.7);
-  transform: translateY(-5px);
+  box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.02);
 }
 
 
@@ -326,12 +288,12 @@ body {
 }
 
 a {
-  color: #18C645;
+  color: #F4C4A9;
   text-decoration: none;
 }
 
 a:hover {
-  color: #18C645;
+  color: #F4C4A9;
   text-decoration: none;
 }
 
@@ -349,7 +311,6 @@ h6 {
 -----------------------------------------------------------*/
 .back-to-top {
   position: fixed;
-  visibility: hidden;
   opacity: 0;
   right: 15px;
   bottom: 15px;
@@ -388,7 +349,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #00000000;
+  background: #1c1c1c;
 }
 
 .dot1,
@@ -400,7 +361,7 @@ h6 {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background-color: #18C645;
+  background-color: #F4C4A9;
   animation: animate-dot 1s ease-in-out infinite;
 }
 
@@ -441,18 +402,13 @@ h6 {
 -----------------------------------------------------------*/
 #header {
   transition: all 0.5s;
-  background: #000000;
+  background: #1c1c1c;
   z-index: 997;
   padding: 10px 0;
-  border-bottom: 1px solid #000000;
-
-  border-color: #18C645;
-  box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
 }
 
 /*#header.header-scrolled {
-  border-color: #18C645;
-  box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
+  border-color: #F4C4A9;
 }*/
 
 #header .logo {
@@ -487,6 +443,8 @@ h6 {
 */
 .navbar {
   padding: 0;
+	font-size: 15px;
+	font-weight: 700;
 }
 
 .navbar ul {
@@ -507,15 +465,14 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 14px;
-  color: #18C645;
+  color: #ccc;
   white-space: nowrap;
   transition: 0.3s;
 }
 
 .navbar a i,
 .navbar a:focus i {
-  font-size: 12px;
+  font-size: 15px;
   line-height: 0;
   margin-left: 5px;
 }
@@ -524,22 +481,22 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #5af78e;
+  color: #F4C4A9;
 }
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: #2487ce;
+  background: #F4C4A9;
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
-  color: #fff;
+  color: #ccc;
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
-  color: #fff;
-  background: #3194db;
+  color: #ccc;
+  background: #F4C4A9;
 }
 
 .navbar .dropdown ul {
@@ -574,7 +531,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #2487ce;
+  color: #F4C4A9;
 }
 
 .navbar .dropdown:hover>ul {
@@ -610,7 +567,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #18C645;
+  color: #F4C4A9;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -673,7 +630,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #18C645;
+  color: #F4C4A9;
 }
 
 .navbar-mobile .getstarted,
@@ -708,7 +665,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #18C645;
+  color: #F4C4A9;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -722,14 +679,13 @@ h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: url("../img/hero-bg.jpg") top center;
+  /*background: url("../img/hero-bg.jpg") top center;*/
   background-size: cover;
   position: relative;
 }
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.9);
   /* pitch black in rgba format */
   position: absolute;
   bottom: 0;
@@ -746,7 +702,7 @@ h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 56px;
+  font-size: 46px;
   font-weight: 700;
   line-height: 72px;
   color: #fff;
@@ -754,7 +710,7 @@ h6 {
 }
 
 #hero h2 {
-  color: #18C645;
+  color: #F4C4A9;
   margin: 10px 0 0 0;
   font-size: 22px;
 }
@@ -785,8 +741,7 @@ h6 {
   padding: 50px 30px;
   position: relative;
   overflow: hidden;
-  background: #000000bc;
-  box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
+  background: #2a2a2abc;
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
   z-index: 1;
@@ -817,10 +772,11 @@ h6 {
   transition: all 0.3s ease-in-out;
   font-size: 36px;
   line-height: 1;
-  color: #18C645;
+  color: #F4C4A9;
 }
 
 #hero .icon-box:hover {
+  box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transform: scale(1.08);
 }
 
@@ -861,7 +817,7 @@ section {
 }
 
 .section-bg {
-  background-color: #000000;
+  background-color: #1c1c1c;
 }
 
 .section-title {
@@ -911,7 +867,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #18C645;
+  color: #F4C4A9;
   line-height: 1;
 }
 
@@ -1011,7 +967,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #18C645;
+  color: #F4C4A9;
   font-size: 26px;
 }
 
@@ -1033,7 +989,7 @@ section {
   color: #999;
   margin: 0 15px 15px 15px;
   padding: 20px;
-  background: #000000;
+  background: #2a2a2abc;
   position: relative;
   margin-bottom: 35px;
   border-radius: 6px;
@@ -1059,27 +1015,27 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #000000;
+  background-color: #1c1c1c;
   opacity: 1;
-  border: 1px solid #18C645;
+  border: 1px solid #F4C4A9;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #18C645;
+  background-color: #F4C4A9;
 }
 
 /*----------------------------------------------------------
 # button theming
 ----------------------------------------------------------*/
 .btn-light-magenta {
-  background-color: #0F8757;
+  background-color: #F4C4A9;
   /* Set the background color to light magenta */
   color: #fff;
   /* Set the text color to white */
 }
 
 .btn-light-magenta:hover {
-  background-color: #15B273;
+  background-color: #ffaf81;
   /* Set the background color to light magenta */
   color: #fff;
   /* Set the text color to white */
@@ -1109,7 +1065,7 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #18C645;
+  color: #F4C4A9;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
@@ -1142,7 +1098,7 @@ section {
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #000000;
+  background-color: #1c1c1c;
   opacity: 1;
   border: 1px solid #2487ce;
 }
@@ -1191,13 +1147,19 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+.member_satan {
+  margin-bottom: 20px;
+  overflow: hidden;
+  text-align: center;
+  background: #00000000;
+}
+
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
   text-align: center;
   border-radius: 4px;
-  background: #000000;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.08);
+  background: #1c1c1c;
 }
 
 .team .member .member-img {
@@ -1273,9 +1235,9 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
-  background: #000000;
+  background: #181818;
   box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
-  border-top: 1px solid #18C645;
+  border-top: 1px solid #F4C4A9;
 }
 
 #footer .footer-top {
@@ -1323,7 +1285,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #18C645;
+  color: #F4C4A9;
   font-size: 18px;
   line-height: 1;
 }
@@ -1339,7 +1301,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #18C645;
+  color: #F4C4A9;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1347,7 +1309,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #18C645;
+  color: #F4C4A9;
 }
 
 #footer .footer-newsletter {
@@ -1427,6 +1389,6 @@ section {
 
 #footer .social-links a:hover {
   background: #000000;
-  color: #18C645;
+  color: #F4C4A9;
   text-decoration: none;
 }

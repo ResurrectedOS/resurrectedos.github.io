@@ -1,0 +1,63 @@
+
+/*============================
+footer
+============================*/
+.l-footer {
+    position: relative;
+    background-color: #181818;
+    padding: 10px 20px;
+}
+
+.l-footer__wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.l-footer__sns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.l-footer__sns-item {
+    width: 24px;
+    height: 24px;
+}
+
+.l-footer__sns-item + .l-footer__sns-item {
+    margin-left: 20px;
+}
+
+.l-footer__sns-link {
+    display: block;
+}
+
+.l-footer__sns-link svg {
+    width: 100%;
+    height: auto;
+}
+
+.l-footer__sns-link path {
+    fill: #F4C4A9;
+    -webkit-transition: fill .3s ease;
+    transition: fill .3s ease;
+}
+
+.l-footer__copy {
+    font-weight: 500;
+    font-size: 10px;
+    font-family: 'Work Sans', -apple-system, BlinkMacSystemFont, "Helvetica Neue", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+    text-align: right;
+}
