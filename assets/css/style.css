@@ -1232,7 +1232,7 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
-  background: #181818;
+  background: #1c1c1c;
   box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
   border-top: 1px solid #f4c4a9;
 }
@@ -1328,7 +1328,7 @@ section {
   position: relative;
   border-radius: 5px;
   text-align: left;
-  border: 1px solid #000000;
+  border: 1px solid #1c1c1c;
 }
 
 #footer .footer-newsletter form input[type="email"] {
@@ -1346,15 +1346,14 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background: #000000;
+  background: #1c1c1c;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 5px 5px 0;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #000000;
+  background: #1c1c1c;
 }
 
 #footer .copyright {
@@ -1372,7 +1371,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #000000;
+  background: #1c1c1c;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
