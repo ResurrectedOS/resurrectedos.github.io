@@ -1,4 +1,3 @@
-
 /*============================
 footer
 ============================*/
@@ -36,7 +35,7 @@ footer
     height: 24px;
 }
 
-.l-footer__sns-item + .l-footer__sns-item {
+.l-footer__sns-item+.l-footer__sns-item {
     margin-left: 20px;
 }
 
