@@ -1,4 +1,4 @@
-/*document.write('');
+document.write('');
 document.write('    <!--rain fx-->');
 document.write('    <div class="l-container" id="container" data-bg="rain"> ');
 document.write('     <div class="l-bg"> ');
@@ -169,4 +169,3 @@ document.write('        <path stroke="none" d="M 2.5,0 C 2.6949458,3.5392017 3.3
 document.write('       </svg> ');
 document.write('      </div> ');
 document.write('     </div> ');
-*/
