@@ -259,7 +259,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #2c232ebc;
+  background-color: #131016;
   flex-shrink: 0;
   /* add this */
 }
@@ -734,7 +734,7 @@ h6 {
   padding: 50px 30px;
   position: relative;
   overflow: hidden;
-  background: #111111;
+  background: #131016;
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
   z-index: 1;
@@ -982,7 +982,7 @@ section {
   color: #999;
   margin: 0 15px 15px 15px;
   padding: 20px;
-  background: #2c232ebc;
+  background: #131016;
   position: relative;
   margin-bottom: 35px;
   border-radius: 6px;
