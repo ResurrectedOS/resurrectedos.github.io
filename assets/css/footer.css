@@ -3,7 +3,7 @@ footer
 ============================*/
 .l-footer {
     position: relative;
-    background-color: #181818;
+    background-color: #1b171d;
     padding: 10px 20px;
 }
 
@@ -49,7 +49,7 @@ footer
 }
 
 .l-footer__sns-link path {
-    fill: #F4C4A9;
+    fill: #dfa9f4;
     -webkit-transition: fill .3s ease;
     transition: fill .3s ease;
 }

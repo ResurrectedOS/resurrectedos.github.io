@@ -7,11 +7,11 @@
 @import url("../css/rain.css");
 
 :root {
-  --bg-color: #1c1c1c;
+  --bg-color: #29242a;
   /* dark background color */
-  --text-color: #ccc;
+  --text-color: #cccccc;
   /* light text color */
-  --highlight-color: #f4c4a9;
+  --highlight-color: #dfa9f4;
   /* highlight color */
 
   /* define other variables for colors used in your code */
