@@ -146,7 +146,7 @@ body {
 .button-like {
   display: inline-block;
   padding: 0.5em 1em;
-  background-color: #1c593a;
+  background-color: #dfa9f4;
   color: #fff;
   border-radius: 0.5em;
   cursor: pointer;
@@ -196,7 +196,7 @@ body {
   position: absolute;
   right: 0;
   left: 20px;
-  color: green;
+  color: #dfa9f4;
 }
 
 .fuck .fuck-list .icon-show,
@@ -1038,7 +1038,7 @@ section {
 }
 
 .btn-light-magenta:hover {
-  background-color: #ffaf81;
+  background-color: #c97be8;
   /* Set the background color to light magenta */
   color: #fff;
   /* Set the text color to white */
