@@ -1,7 +1,7 @@
 /**
-* Name: RUi
-* Updated: Oct 13th 2023
-* Author: BurhanVerse 
+* Name: ROS
+* Updated: Feb 28th 2024
+* Author: Burhanverse 
 */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 @import url("../css/footer.css");
@@ -60,7 +60,7 @@ body {
 --------------------------------------------------------*/
 
 .satanic {
-  border: 1px solid #dfa9f4;
+  border: 3px solid #dfa9f4;
   border-radius: 15px;
   padding: 10px;
 }
@@ -174,7 +174,7 @@ body {
 
 .fuck .fuck-list li {
   padding: 16px;
-  border: 1px solid #555555;
+  border: 3px solid #dfa9f4;
   border-radius: 15px;
   position: relative;
   box-shadow: none;
