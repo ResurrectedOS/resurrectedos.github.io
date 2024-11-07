@@ -89,7 +89,7 @@ body {
 
 .my-box boxbit.dev {
   background-color: rgb(105, 0, 191);
-  width: 80px;
+  width: auto;
   margin-right: 10px;
 }
 
@@ -101,19 +101,19 @@ body {
 .my-box boxbit.activestat {
   background-color: rgba(0, 154, 0, 0.983);
   margin-left: 10px;
-  width: 80px;
+  width: auto;
 }
 
 .my-box boxbit.romdevstat {
   background-color: rgb(187, 140, 0);
   margin-left: 10px;
-  width: 100px;
+  width: auto;
 }
 
 .my-box boxbit.inactivestat {
   background-color: rgb(185, 0, 0);
   margin-left: 10px;
-  width: 100px;
+  width: auto;
 }
 
 .my-box boxbit:not(:last-child) {
